@@ -21,9 +21,9 @@ export const HeaderNav = () => {
                     <li>
                         <NavLink to='/pendientes' className={({isActive})=> isActive ? "active" : ""} >Incidentes Pendientes</NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink to='/atencion' className={({isActive})=> isActive ? "active" : ""} >Registrar a Atendidos</NavLink>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink to='/mis-incidentes' className={({isActive})=> isActive ? "active" : ""} >Incidentes Atendidos</NavLink>
                     </li>
