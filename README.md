@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Requerimiento de automatización Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lo primero que haremos es clonar este proyecto de forma local para realizar las pruebas correspondientes
 
-## Available Scripts
-
-In the project directory, you can run:
+## Ejecutaremos el proyecto de la siguiente manera 
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecuta la aplicación en modo de desarrollo.\
+Abra [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Una vez ejecutado el proyecto en el navegador nos aparece de la siguiente manera
 
-### `npm test`
+![Pagina general](imagenes_respaldo/img1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ahora procederemos a realizar las pruebas correspondientes
 
-### `npm run build`
+### App para el ingreso de incidentes.
+Se procedera a registrar un incidente donde le daremos una descripcion y una observacion que pueda tener. Este se creada por defecto como un incidente pendiente para que posteriormente se pueda corregir.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Pagina general](imagenes_respaldo/img2.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Página Web para ver el listado de incidentes ingresados.
+En este apartado podremos visualizar todos los incidentes que se van ingresando.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Pagina general](imagenes_respaldo/img3.png)
 
-### `npm run eject`
+### Página Web para ver el listado de incidentes pendientes de ser atendidos.
+Aqui podremos ver los incidentes que estan pendientes de ser atendidos es decir los que solo se han registrado.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Pagina general](imagenes_respaldo/img4.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Página Web para registrar a atención del incidente.
+Aqui para poder registrar un incidente a atencion debemos de dar click sobre el incidente.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Pagina general](imagenes_respaldo/img5.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Luego de dar click nos aparecera una nueva pagina web donde nos mostrara la descripcion del incidente y tendremos un campo donde podremos poner la observacion pertinente, una vez lleno los datos enviamos el incidente y este pasara a ser atendido.
 
-## Learn More
+![Pagina general](imagenes_respaldo/img6.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### App para revisar mis incidentes atendidos.
+Aqui se puede ver los incidentes atendidos con su observacion colocada y su estado en Atendido, incluso la hora en la que a sido atendido.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Pagina general](imagenes_respaldo/img7.png)
